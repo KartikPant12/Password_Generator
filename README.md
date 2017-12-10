@@ -11,3 +11,6 @@ Validates if the user gives a string in the name field and number in the length 
 There is also a reset button to reset all the fields.
 
 
+This is how the application looks like: https://github.com/jamesgeorge007/Random-Password-Generator-in-TKinter-GUI-/blob/master/Screenshot/passgen_image.JPG
+
+

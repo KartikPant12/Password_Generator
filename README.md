@@ -17,6 +17,6 @@ This is a GUI application showcasing a random password generator built with the 
 
 <h2> Screenshot. </h2>
 
-<img src="https://github.com/jamesgeorge007/Random-Password-Generator-in-TKinter-GUI-/blob/master/Screenshot/passgen_image.JPG">
+<img src="https://github.com/jamesgeorge007/Random-Password-Generator-in-TKinter-GUI-/blob/master/Screenshot/passgen_image.JPG" align="center">
 
 

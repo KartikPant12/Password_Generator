@@ -14,6 +14,8 @@ class GUI():
         
         master.title('Password Generator')
         master.geometry('840x500')
+        
+        master.resizable(False, False)
 
         self.label=Label(text="Password Generator",fg='darkmagenta',font='elephant 35 underline bold')
         self.label.grid(row=0,column=0,columnspan=3)

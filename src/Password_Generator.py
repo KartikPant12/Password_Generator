@@ -13,7 +13,7 @@ class GUI():
 
         
         master.title('Password Generator')
-        master.geometry('840x500')
+        master.geometry('840x600')
         
         master.resizable(False, False)
 
@@ -76,7 +76,7 @@ class GUI():
         self.generate.grid(row=12,column=0)
 
 
-        self.reset=Button(text="Reset",bd=4,relief='solid',padx=1,pady=1,font='forte 25 bold',fg='darkblue',bg='red',command=self.reset_fields)
+        self.reset=Button(text="Reset",bd=4,relief='solid',padx=1,pady=1,font='forte 25 bold',fg='blue',bg='green',command=self.reset_fields)
         self.reset.grid(row=12,column=2)
 
 
@@ -96,11 +96,11 @@ class GUI():
          leng=self.length_textfield.get()
 
          if name=="":
-             messagebox.showerror("Oops","Name field can't be empty!")
+             messagebox.showerror("Oops","Name field can't be empty!!!")
              return
          
          if name.isalpha()==False:
-             messagebox.showinfo("Warning","Name must be a string!")
+             messagebox.showinfo("Warning","Name must be a string!!!")
              self.textfield.delete(0,25)
              return
 
